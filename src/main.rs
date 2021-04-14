@@ -2,6 +2,7 @@ mod learn_lib;
 use learn_lib::guess_game;
 use learn_lib::prog_3_1;
 use learn_lib::prog_3_2;
+use learn_lib::prog_3_3;
 use std::io;
 
 fn main() {
@@ -21,6 +22,11 @@ fn main() {
         "3_2" => {
             prog_3_2::action();
             prog_3_2::action_panic();
+        }
+        "3_3" => {
+            prog_3_3::action();
+            prog_3_3::action_block();
+            prog_3_3::function_with_return();
         }
         _ => println!("other program"),
     };
