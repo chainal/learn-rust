@@ -10,7 +10,7 @@ pub fn action() {
 
 pub fn action_panic() {
     let a = [1, 2, 3, 4, 5];
-    let index = 5;
+    let index = 3;// panic if index >= 5
     let element = a[index];
 
     println!("The value of element is {}", element);
