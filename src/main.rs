@@ -4,6 +4,8 @@ use learn_lib::prog_3_1;
 use learn_lib::prog_3_2;
 use learn_lib::prog_3_3;
 use learn_lib::prog_3_5;
+use learn_lib::prog_4_1;
+use learn_lib::prog_4_2;
 use std::io;
 
 fn main() {
@@ -36,6 +38,14 @@ fn main() {
             prog_3_5::action_for();
             prog_3_5::action_for_range();
             prog_3_5::action_f_arr();
+        }
+        "4_1" => {
+            prog_4_1::action();
+            prog_4_1::action_give();
+        }
+        "4_2" => {
+            prog_4_2::action();
+            prog_4_2::action_mut();
         }
         _ => println!("other program"),
     };
