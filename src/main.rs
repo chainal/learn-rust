@@ -3,6 +3,7 @@ use learn_lib::guess_game;
 use learn_lib::prog_3_1;
 use learn_lib::prog_3_2;
 use learn_lib::prog_3_3;
+use learn_lib::prog_3_5;
 use std::io;
 
 fn main() {
@@ -27,6 +28,14 @@ fn main() {
             prog_3_3::action();
             prog_3_3::action_block();
             prog_3_3::function_with_return();
+        }
+        "3_5" => {
+            prog_3_5::action();
+            prog_3_5::action_loop();
+            prog_3_5::action_while();
+            prog_3_5::action_for();
+            prog_3_5::action_for_range();
+            prog_3_5::action_f_arr();
         }
         _ => println!("other program"),
     };
