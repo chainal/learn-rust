@@ -1,5 +1,5 @@
 [package]
-name = "hello_cargo"
+name = "learn-rust"
 version = "0.1.0"
 authors = ["liuchuang05 <liuchuang05@meituan.com>"]
 edition = "2018"
