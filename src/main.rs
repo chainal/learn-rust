@@ -6,6 +6,7 @@ use learn_lib::prog_3_3;
 use learn_lib::prog_3_5;
 use learn_lib::prog_4_1;
 use learn_lib::prog_4_2;
+use learn_lib::prog_4_3;
 use std::io;
 
 fn main() {
@@ -46,6 +47,9 @@ fn main() {
         "4_2" => {
             prog_4_2::action();
             prog_4_2::action_mut();
+        }
+        "4_3" => {
+            prog_4_3::action();
         }
         _ => println!("other program"),
     };
