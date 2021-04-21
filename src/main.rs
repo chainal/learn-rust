@@ -8,6 +8,8 @@ use learn_lib::prog_4_1;
 use learn_lib::prog_4_2;
 use learn_lib::prog_4_3;
 use learn_lib::prog_5_1;
+use learn_lib::prog_5_2;
+use learn_lib::prog_5_3;
 use std::io;
 
 fn main() {
@@ -55,6 +57,14 @@ fn main() {
         "5_1" => {
             prog_5_1::action();
             prog_5_1::action_color();
+        }
+        "5_2" => {
+            prog_5_2::action();
+            prog_5_2::action_tuple();
+            prog_5_2::action_struct();
+        }
+        "5_3" => {
+            prog_5_3::action();
         }
         _ => println!("other program"),
     };
