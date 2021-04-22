@@ -9,3 +9,4 @@ pub mod prog_4_3;
 pub mod prog_5_1;
 pub mod prog_5_2;
 pub mod prog_5_3;
+pub mod prog_6_1;

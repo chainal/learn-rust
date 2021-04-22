@@ -10,6 +10,7 @@ use learn_lib::prog_4_3;
 use learn_lib::prog_5_1;
 use learn_lib::prog_5_2;
 use learn_lib::prog_5_3;
+use learn_lib::prog_6_1;
 use std::io;
 
 fn main() {
@@ -66,6 +67,9 @@ fn main() {
         "5_3" => {
             prog_5_3::action();
             prog_5_3::action_more_param();
+        }
+        "6_1" => {
+            prog_6_1::action();
         }
         _ => println!("other program"),
     };
