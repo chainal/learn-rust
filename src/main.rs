@@ -65,6 +65,7 @@ fn main() {
         }
         "5_3" => {
             prog_5_3::action();
+            prog_5_3::action_more_param();
         }
         _ => println!("other program"),
     };
