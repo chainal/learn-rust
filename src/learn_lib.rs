@@ -10,3 +10,5 @@ pub mod prog_5_1;
 pub mod prog_5_2;
 pub mod prog_5_3;
 pub mod prog_6_1;
+pub mod prog_6_2;
+pub mod prog_6_3;

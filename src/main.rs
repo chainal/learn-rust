@@ -11,6 +11,8 @@ use learn_lib::prog_5_1;
 use learn_lib::prog_5_2;
 use learn_lib::prog_5_3;
 use learn_lib::prog_6_1;
+use learn_lib::prog_6_2;
+use learn_lib::prog_6_3;
 use std::io;
 
 fn main() {
@@ -70,6 +72,12 @@ fn main() {
         }
         "6_1" => {
             prog_6_1::action();
+        }
+        "6_2" => {
+            prog_6_2::action();
+        }
+        "6_3" => {
+            prog_6_3::action();
         }
         _ => println!("other program"),
     };
